@@ -1,0 +1,207 @@
+/* Reset de estilos */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f6f6f6;
+  color: #333;
+}
+
+/* Estilos del encabezado */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+/* Estilos del contenido principal */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+/* Estilos del menú de navegación */
+aside {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+aside p {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+aside a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 5px;
+  transition: color 0.3s ease;
+}
+
+aside a:hover {
+  color: #ff5f5f;
+}
+
+/* Estilos de las secciones */
+section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Estilos de las imágenes */
+img.rounded {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto 20px;
+  border-radius: 10px;
+}
+
+/* Estilos de los videos */
+.video-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.video-container iframe {
+  border-radius: 10px; /* Redondea el borde del video */
+  display: block;
+  margin: 0 auto; /* Centra horizontalmente */
+  max-width: 100%; /* Ajusta el tamaño al ancho máximo de la página */
+}
+
+/* Estilos del pie de página */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 10px;
+}
+
+/* Estilos para el formulario */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+  border: none;
+  margin-bottom: 20px;
+}
+
+legend {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: none;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #555;
+}
+
+iframe {
+  border-radius: 10px; /* Aplica bordes redondeados */
+  display: block; /* Hace que el iframe sea un bloque */
+  margin: 0 auto; /* Centra el iframe horizontalmente */
+  max-width: 100%; /* Ajusta el tamaño al ancho máximo de la página */
+}
+img {
+  border-radius: 10px; /* Aplica bordes redondeados */
+  display: block; /* Hace que el iframe sea un bloque */
+  margin: 0 auto; /* Centra el iframe horizontalmente */
+  max-width: 100%; /* Ajusta el tamaño al ancho máximo de la página */
+}
+label {
+  display: inline-block; /* Para que el label y el checkbox estén en la misma línea */
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input[type="checkbox"] {
+  display: inline-block; /* Para que el label y el checkbox estén en la misma línea */
+  margin-right: 5px;
+  vertical-align: middle;
+}
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jon Sánchez Viana(Contacto)</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="about.me.html">Inicio</a>
+      <a href="portafolio.html">Portafolio</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </header>
+  <main>
+    <h1>Contacto: Jon Sánchez Viana</h1>
+    <p>Rellena el siguiente formulario para ponerte en contacto conmigo y poder colaborar pronto en los proyecto destacados en la página del Portafolio.</p>
+    <form action="server.php" method="post">
+      <fieldset>
+        <legend>Datos</legend>
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="telefono">Teléfono:</label><br>
+        <input type="tel" id="telefono" name="telefono"><br><br>
+        <label for="fecha">Fecha de nacimiento:</label><br>
+        <input type="date" id="fecha" name="fecha"><br><br>
+      </fieldset>
+      <fieldset>
+        <legend>Mensaje</legend>
+        <label for="motivo">Motivo:</label><br>
+        <select id="motivo" name="motivo">
+          <option value="saludo">Cooperar</option>
+          <option value="informacion">Información</option>
+          <option value="opinion">Opinión</option>
+        </select><br><br>
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+      </fieldset>
+      <input type="checkbox" name="condiciones" id="id-condiciones" value="1">
+      <label for="id-condiciones">Acepto las condiciones</label>
+      <br><br>
+      <input type="submit" name="enviar" value="Enviar">
+    </form>
+    <br><br>
+    <footer>
+      <p>Copyleft 2024 Jon Sánchez Viana</p>
+    </footer>
+  </main>
+</body>
+</html>
+
